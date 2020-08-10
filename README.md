@@ -8,10 +8,18 @@ width="550px"
 # Mappy
 > A simple random walk map generator.
 
+<br />
+
+<br />
+
 ## Table of Contents
 - [About](#about)
 - [Usage](#usage)
 - [Customization](#customization)
+
+<br />
+
+<br />
 
 ## About
 Mappy is a small proof of concept project designed to create a two dimensional side view map using the random walk algorithm. It allows for custom made materials with name, color, and rarity. These are interspersed randomly throughout the map at a specified number of cluster centers based on their rarity. They are then randomly diffused outward from the center with an area also determined by the material's rarity.
@@ -24,11 +32,5 @@ git clone https://github.com/PrestonGray/map_py.git
 cd map_py
 ```
 
-In order to randomly generate a map, simply run the titular `map_py.py` file using python.
-
-```sh
-python3 map_py.py
-```
-
 ## Customization
-To customize the possible materials to populate the map, simply edit the colors and materials data structures found in `map_py/constants.py`.
+To customize the all aspects of the map including possible materials to populate the map, simply edit the provided variables found in `map_py/constants.py`.
